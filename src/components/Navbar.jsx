@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
 
-        {/* Name and CV Download */}
+        {/* Logo + Download CV */}
         <div className="nav-brand">
           <a href="#home" className="logo">
             Rajesh K
@@ -11,9 +11,10 @@ const Navbar = () => {
 
           <a
             href="/resume/Rajesh_K_Resume.pdf"
-            download="Rajesh_K_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="resume-btn"
-            aria-label="Download Rajesh K CV"
+            aria-label="Open Rajesh K CV"
           >
             Download CV
             <span className="download-icon">↓</span>
@@ -27,6 +28,7 @@ const Navbar = () => {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </div>
 
