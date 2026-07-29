@@ -16,8 +16,12 @@ const Contact = () => {
         </p>
 
         <div className="contact-links">
+
+          {/* Email */}
           <a
-            href="mailto:rajeshkannappan020@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=rajeshkannappan020@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="contact-card"
           >
             <div className="contact-icon">✉</div>
@@ -30,6 +34,7 @@ const Contact = () => {
             <span className="contact-arrow">↗</span>
           </a>
 
+          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/rajeshkannappan"
             target="_blank"
@@ -46,6 +51,7 @@ const Contact = () => {
             <span className="contact-arrow">↗</span>
           </a>
 
+          {/* GitHub */}
           <a
             href="https://github.com/RAJESH-230701255"
             target="_blank"
@@ -61,15 +67,20 @@ const Contact = () => {
 
             <span className="contact-arrow">↗</span>
           </a>
+
         </div>
 
+        {/* Say Hello Button */}
         <a
-          href="mailto:rajeshkannappan020@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=rajeshkannappan020@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="contact-button"
         >
           Say Hello
           <span>→</span>
         </a>
+
       </div>
     </section>
   );
