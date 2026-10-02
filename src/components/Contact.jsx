@@ -36,7 +36,7 @@ const Contact = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/rajeshkannappan"
+            href="https://www.linkedin.com/in/rajesh-kannappan-96714b437/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-card"
