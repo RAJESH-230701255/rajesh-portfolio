@@ -81,7 +81,7 @@ const Projects = () => {
         "RBAC",
       ],
       github:
-        "https://github.com/RAJESH-230701255/Final_Year_Project_Phase1",
+        "https://github.com/RAJESH-230701255/meeting-intelligence-platform",
       live: null,
     },
   ];
